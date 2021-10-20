@@ -1,0 +1,13 @@
+apiVersion: 1.0.0
+metadata:
+  name: che_springbootTest71wb
+projects:
+  - name: che_springbootTest
+    source:
+      location: 'https://github.com/jjy5212/che_springbootTest.git'
+      type: github
+components:
+  - id: redhat/java/latest
+    type: chePlugin
+  - id: redhat/vscode-xml/latest
+    type: chePlugin
